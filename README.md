@@ -91,11 +91,10 @@ Your server will run on:
 If you're hiring or mentoring, I'd love to connect!
 Let’s build and grow together 🚀
 **GitHub:** [omkaaaar](https://github.com/omkaaaar)
+**LinkedIn:** [Omkar Kallekar](https://www.linkedin.com/in/omkarkallekar/)
 
 ---
 
 ## 📌 License
 
 This project is for learning/demo purposes. Free to use and modify.
-
-```
