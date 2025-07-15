@@ -15,7 +15,7 @@ exports.addStudent = async (req, res) => {
     city: "Machhe",
   };
   await collection().insertOne(data);
-  res.json({ message: "🎉 Student added successfully", data });
+  res.json({ message: "Student added successfully", data });
 };
 
 // ! Updating data
