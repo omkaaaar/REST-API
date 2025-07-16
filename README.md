@@ -22,7 +22,7 @@ student-api/
 ├── controllers/         # All CRUD logic
 │   └── studentController.js
 ├── routes/              # Route endpoints
-│   └── studentRoutes.js
+│   └── routes.js
 ├── db.js                # MongoDB connection
 ├── index.js             # Entry point of the app
 ├── .env                 # Secrets and MongoDB URI
