@@ -48,3 +48,18 @@ exports.deleteStudent = async (req, res) => {
     deletedCount: result.deletedCount,
   });
 };
+
+// ! Getting user by id
+
+exports.getStudentById = async (req, res) => {
+  const id = req.params.id;
+  try {
+    const result = await collection().findOne({ _id: new ObjectId(id) });
+    if (!result) {
+      return res.status(400).json({ message: "Student Not available" });
+    }
+    res.json(result);
+  } catch (error) {
+    res.status(500).json({ message: "Error fetching student", error: err });
+  }
+};
